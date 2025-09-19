@@ -1,0 +1,44 @@
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-perfil {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    max-width: 350px;
+    text-align: center;
+}
+
+.foto-perfil {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 15px;
+}
+
+.nome {
+    color: #333;
+    font-size: 24px;
+    margin: 0;
+}
+
+.titulo-profissao {
+    color: #777;
+    font-style: italic;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.bio {
+    color: #555;
+    font-size: 14px;
+    margin-top: 20px;
+}
