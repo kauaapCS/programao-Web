@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 2 - Manipulador de Texto e CPF</title>
+    <link rel="stylesheet" href="src/css/styles1.css">
+</head>
+<body>
+
+    <h1>Manipulador de Texto e CPF</h1>
+    <div class="container">
+        <label for="entrada">Digite o texto, palavra ou CPF:</label>
+        <input type="text" id="entrada" placeholder="Ex: amor, teste, 012.345.678-99">
+
+        <button onclick="inverterTexto()">Inverter Texto</button>
+        <button onclick="contarVogais()">Contar Vogais</button>
+        <button onclick="verificarPalindromo()">Verificar Palíndromo</button>
+        <button onclick="capitalizarPalavras()">Capitalizar Palavras</button>
+        <button onclick="mascararCPF()">Mascarar CPF</button>
+
+        <h3>Resultado:</h3>
+        <input type="text" id="resultado" readonly placeholder="O resultado da operação será exibido aqui...">
+    </div>
+
+    <script src="src/scripts/script2.js" type="text/javascript"></script>
+</body>
+</html>

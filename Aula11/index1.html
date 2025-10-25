@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 1 - Calculadora de Funções Matemáticas e Conversões</title>
+    <link rel="stylesheet" href="src/css/styles1.css">
+</head>
+<body>
+
+    <h1>Calculadora de Funções Matemáticas e Conversões</h1>
+    <div class="container">
+        <label for="numero">Digite o número:</label>
+        <input type="text" id="numero" placeholder="Ex: 5, 10, 1023">
+
+        <button onclick="calcularQuadrado()">Calcular Quadrado</button>
+        <button onclick="calcularRaiz()">Calcular Raiz Quadrada</button>
+        <button onclick="calcularSeno()">Calcular Seno</button>
+        <button onclick="calcularCosseno()">Calcular Cosseno</button>
+        <button onclick="calcularAreaCirculo()">Calcular Área do Círculo</button>
+        <button onclick="decimalParaBinario()">Decimal para Binário</button>
+        <button onclick="binarioParaDecimal()">Binário para Decimal</button>
+
+        <h3>Resultado:</h3>
+        <input type="text" id="resultado" readonly placeholder="O resultado aparecerá aqui...">
+    </div>
+
+    <script src="src/scripts/script1.js" type="text/javascript"></script>
+</body>
+</html>

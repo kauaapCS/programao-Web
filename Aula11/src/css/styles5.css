@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    padding: 30px;
+}
+h1 {
+    color: #003366;
+}
+.container {
+    background-color: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px 0;
+}
+th, td {
+    border: 1px solid #888;
+    text-align: center;
+    padding: 5px;
+}
+th {
+    background-color: #e8eef9;
+}
+button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 10px;
+    cursor: pointer;
+    width: 100%;
+}
+button:hover {
+    background-color: #0078ff;
+}
