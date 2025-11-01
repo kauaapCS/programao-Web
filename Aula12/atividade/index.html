@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário de Notas</title>
+    <link rel="stylesheet" href="src/css/styles.css">
+</head>
+<body>
+    <h2>Formulário de Notas</h2>
+
+    <form id="formNotas">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" required>
+
+        <label for="rgm">RGM:</label>
+        <input type="text" id="rgm" required>
+
+        <label for="notaAtividades">Nota atividades:</label>
+        <input type="number" id="notaAtividades" step="0.1" required>
+
+        <label for="notaProjeto">Nota projeto:</label>
+        <input type="number" id="notaProjeto" step="0.1" required>
+
+        <label for="notaRegimental">Nota regimental:</label>
+        <input type="number" id="notaRegimental" step="0.1" required>
+
+        <button type="button" onclick="calcularNota()">Calcular</button>
+    </form>
+
+    <div id="resultado" class="resultado" style="display:none;"></div>
+    <script src="src/js/scripts.js"></script>
+</body>
+</html>
